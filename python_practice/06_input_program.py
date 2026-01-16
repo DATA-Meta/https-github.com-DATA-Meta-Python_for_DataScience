@@ -1,3 +1,11 @@
+# 📘 File: 06_input_program.py
+# This script practices taking user input in Python:
+# ⌨️ input() – reads text typed by the user
+# 🔄 Converts input into numbers when needed (int, float)
+# 🧠 Demonstrates how programs interact with users
+# 📝 Includes small examples that ask for a name, age, or numbers
+# This file builds your understanding of interactive Python programs.
+
 # name = input() #User input
 # # print(name) #output
 
