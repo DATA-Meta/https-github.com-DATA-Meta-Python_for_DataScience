@@ -1,3 +1,13 @@
+# 📘 File: 04_data_types.py
+# This script introduces the basic data types in Python:
+# 🔢 int – whole numbers
+# 🔤 str – text values
+# 🔟 float – decimal numbers
+# 🟩 bool – True/False values
+# 📦 list, tuple, dict – simple data structures
+# 🧪 Includes small examples to show how each data type behaves
+# This file helps build a strong foundation for Python programming.
+
 x = 5 # integer
 y = 5.0 # Float
 z = " all the way from germany" # String
