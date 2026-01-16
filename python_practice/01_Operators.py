@@ -25,4 +25,4 @@ print(a)
 print(b)
 print(a+b)
 print(a == b)
-print(b == c)  # these are boolean operators as aswers comes in true or false
+print(b == c)  # these are boolean operators as answers comes in true or false

@@ -86,6 +86,9 @@
 
 # loops
 
+from operator import truediv
+
+
 temperature = 15
 if temperature > 30:
     print('it,s warm')
@@ -94,7 +97,11 @@ elif temperature > 20:
     print('it,s nice')
 else:
     print('it,s cold')
-else:
-    print('it,s freezing')
 
-print('done')
+high_income = True
+good_credit = True
+
+if high_income and good_credit:
+    print('eligible for loan')
+else:
+    print('not eligible for loan')

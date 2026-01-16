@@ -1,24 +1,16 @@
-# 📘 File: 06_input_program.py
-# This script practices taking user input in Python:
-# ⌨️ input() – reads text typed by the user
-# 🔄 Converts input into numbers when needed (int, float)
-# 🧠 Demonstrates how programs interact with users
-# 📝 Includes small examples that ask for a name, age, or numbers
-# This file builds your understanding of interactive Python programs.
+name = input()  # User input
+# print(name) #output
 
-# name = input() #User input
-# # print(name) #output
+print("Hello", name)
 
-# print("Hello", name)
+name = input("Enter your name:")  # User input
+print(name)  # output
 
-# name = input("Enter your name:") #User input
-#  print(name) #output
+print("Hello", name, ", or sunao?")
 
-# print("Hello", name, ", or sunao?")
-
-# # Program to calculate age of person A and pertson B
-# person_A_name = input("what is your name:")
-# person_A_age  = input("enter your age:")
+# Program to calculate age of person A and person B
+person_A_name = input("what is your name:")
+person_A_age = input("enter your age:")
 
 # person_B_name = input("what is your name:")
 # person_B_age  = input("enter your age:")
@@ -27,8 +19,8 @@
 #     print(person_A_name, "is older than", person_B_name)
 # else:
 #      print(person_A_name, "is younger than", person_B_name)
-     
-#BMI calculator ask age , weight, and height
+
+# BMI calculator ask age , weight, and height
 
 # person_name = input("what is your name:")
 # weight= int( input("what is your weight:"))
@@ -49,11 +41,3 @@ height = float(input("Enter your height in meters: "))
 bmi = weight / (height ** 2)
 
 print("Your BMI is:", round(bmi, 2))
-
-
-
-
-
-
-
-
