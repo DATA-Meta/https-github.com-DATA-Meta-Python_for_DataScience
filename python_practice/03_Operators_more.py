@@ -1,3 +1,11 @@
+# 📘 File: 03_Operators_more.py
+# This script practices Python operators with more examples:
+# 🔢 Arithmetic operators: +, -, *, /, %, **, //
+# ⚖️ Comparison operators: ==, !=, >, <, >=, <=
+# 🧠 Logical operators: and, or, not
+# ➕ Shows how operator precedence works in Python
+# This file builds on earlier operator lessons to strengthen your fundamentals.
+
 # x = 15  #Arthimatic operation
 # y = 4
 # z = 5.5
