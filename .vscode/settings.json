@@ -1,6 +1,6 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python",
-    "python-envs.defaultPackageManager": "ms-python.python",
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "python-envs.defaultPackageManager": "ms-python.python:pip",
     "python-envs.pythonProjects": [],
     "python.analysis.enableTroubleshootingMissingImports": true,
     "typescript.enablePromptUseWorkspaceTsdk": true,

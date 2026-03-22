@@ -86,22 +86,51 @@
 
 # loops
 
-from operator import truediv
+# from operator import truediv
 
 
-temperature = 15
-if temperature > 30:
-    print('it,s warm')
-    print('drink water')
-elif temperature > 20:
-    print('it,s nice')
-else:
-    print('it,s cold')
+# temperature = 15
+# if temperature > 30:
+#     print('it,s warm')
+#     print('drink water')
+# elif temperature > 20:
+#     print('it,s nice')
+# else:
+#     print('it,s cold')
 
-high_income = True
-good_credit = True
+# high_income = True
+# good_credit = True
 
-if high_income and good_credit:
-    print('eligible for loan')
-else:
-    print('not eligible for loan')
+# if high_income and good_credit:
+#     print('eligible for loan')
+# else:
+#     print('not eligible for loan')
+
+
+example_list = list(range(1, 6))
+print(example_list)
+
+print(example_list[0])
+
+
+print(example_list[-1])
+
+
+print(example_list[-2])
+
+
+print(example_list[:3])
+
+
+print(example_list[-1:1:-2])
+
+print(example_list[1:2:2])
+
+print(example_list[::2])
+
+print(example_list[::-1])
+
+print(example_list[1::2])
+
+lst = [10, 20, 30, 40, 50, 60]
+print(lst[1:5:2])
