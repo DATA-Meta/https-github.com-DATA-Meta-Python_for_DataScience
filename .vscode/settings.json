@@ -1,10 +1,35 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.defaultPackageManager": "ms-python.python:pip",
+    "python-envs.defaultEnvManager": "ms-python.python",
+    "python-envs.defaultPackageManager": "ms-python.python",
     "python-envs.pythonProjects": [],
-    "python.analysis.enableTroubleshootMissingImports": true,
+    "python.analysis.enableTroubleshootingMissingImports": true,
     "typescript.enablePromptUseWorkspaceTsdk": true,
-    "cSpell.words": [
-        "abcdefghijklmnopqrstuwxy"
-    ]
+    "cspell.words": [
+        "abcdefghijklmnopqrstuvwxy"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.pylint": "explicit"
+        }
+    },
+    "python.formatting.provider": "autopep8",
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.defaultInterpreterPath": "C:\\Users\\usman\\.conda\\envs\\python_eda\\python.exe",
+    "python.condaPath": "C:\\ProgramData\\miniconda3\\Scripts\\conda.exe",
+    "jupyter.jupyterServerType": "local",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "extensions.ignoreRecommendations": false,
+    "[ms-python.python]": {
+        "state": "enabled"
+    },
+    "[ms-toolsai.jupyter]": {
+        "state": "enabled"
+    }
 }
